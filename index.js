@@ -31,27 +31,3 @@ function displayData(movies){
     container.innerHTML=output
 }
 
-// function displayData(movies){
-//     let output=`
-//         <section class="poster">
-//             ${movies.map((movie)=>{
-//                 return `
-//                 <img class="image" src="${movie.poster_path}" alt="">
-//                 `
-//             })}
-            
-//         </section>
-//     `;
-//     // movies.map(movie=>{
-//     //     return
-//     //     output+=
-//     //     `
-//     //     <section class="poster">
-//     //         <img class="image" src="${movies.poster_path}" alt="">
-//     //     </section>
-
-//     //     `
-//     // })
-//     container.innerHTML=output;
-//     return container
-// }
